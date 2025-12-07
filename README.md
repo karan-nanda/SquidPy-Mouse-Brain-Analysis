@@ -21,17 +21,21 @@ The provided code includes a series of analysis steps, each contributing to the 
 
 1. **Loading Data**: The code starts by loading the spatial transcriptomics data of the mouse brain section using Scanpy and Squidpy. The data includes information about cells, genes, counts, and various attributes.
 
-2. **Data Exploration**: This section explores the loaded data, displaying the dimensions and basic statistics of the AnnData object.
+10x Genomics. (2020, June 23). Mouse Brain Section (Coronal) – Spatial Gene Expression dataset (Space Ranger 1.1.0) [Data set]. 10x Genomics. https://www.10xgenomics.com/datasets/mouse-brain-section-coronal-1-standard-1-1-0
 
-3. **Visualizing Data**: Different plots are generated to visualize the distribution of cell counts, gene counts, and other attributes across the tissue.
+The above dataset is also available readily in squidpy dataset so you do not have to download the visium data yourself!
 
-4. **Spatial Analysis**: The code then delves into spatial analysis. It uses Squidpy to compute spatial neighbors, neighborhood enrichment, co-occurrence, and ligand-receptor interactions. The results are visualized using heatmaps and plots to help identify patterns and relationships.
+3. **Data Exploration**: This section explores the loaded data, displaying the dimensions and basic statistics of the AnnData object.
 
-5. **Ripley's L Function**: The Ripley's L function is used to analyze spatial patterns and distributions of clusters within the tissue.
+4. **Visualizing Data**: Different plots are generated to visualize the distribution of cell counts, gene counts, and other attributes across the tissue.
 
-6. **Moran's I Score**: Moran's I score is calculated to assess the spatial autocorrelation of genes, indicating whether certain genes show clustering, dispersion, or randomness.
+5. **Spatial Analysis**: The code then delves into spatial analysis. It uses Squidpy to compute spatial neighbors, neighborhood enrichment, co-occurrence, and ligand-receptor interactions. The results are visualized using heatmaps and plots to help identify patterns and relationships.
 
-7. **SEPAL Score**: The SEPAL score (Spatial Exploratory Analysis of Ligands and Proteins) is computed to analyze cell-cell interactions based on gene expression profiles.
+6. **Ripley's L Function**: The Ripley's L function is used to analyze spatial patterns and distributions of clusters within the tissue.
+
+7. **Moran's I Score**: Moran's I score is calculated to assess the spatial autocorrelation of genes, indicating whether certain genes show clustering, dispersion, or randomness.
+
+8. **SEPAL Score**: The SEPAL score (Spatial Exploratory Analysis of Ligands and Proteins) is computed to analyze cell-cell interactions based on gene expression profiles.
 
 ## Contributing
 
